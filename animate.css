@@ -1,0 +1,63 @@
+/* Basic Styling Setup */
+body {  
+  margin:50px;
+  font-size: 250%;
+  font-family: Helvetica; 
+  text-align: center; 
+  background-color: seashell;  
+}
+/* Basic Navigation and Anchor tag setup */
+nav {
+  background-color: midnightblue;
+  padding: 25px 6px;   
+  margin: 50px auto;  
+}
+
+/* ======================= Transitions */
+nav a {
+  text-decoration: none;
+  color: snow;     
+  padding: 25px;
+  margin: 0 -6px;
+  transition: ease .5s;   /*state the timing in seconds = "s" */         
+}
+nav a:hover {
+  color: darkgrey;
+  background-color: tomato;
+}
+.cat {
+  width: 500px;     
+  opacity: .5;
+  transition: ease 1s;
+  position: relative;
+  top: 0;   
+}
+.cat:hover {
+  opacity: 1;
+  top: 50px;
+}
+
+/* ======================= Blob animate on hover */ 
+.blob {    
+  padding: 50px;
+  width: 200px;
+  height:200px;
+  border-radius: 50%;
+  margin: 50px auto;
+  background-color: tomato;    
+}
+
+
+/* ======================= Bouncing Arrow */
+#arrow-container {
+  width:100px;
+  height: 100px;
+  margin: 0 auto;
+  background-color:moccasin;
+  border-radius: 20px;
+  text-align: center;
+}
+#arrow {
+  font-size: 100px; 
+  color: #1c1c1c;         
+}
